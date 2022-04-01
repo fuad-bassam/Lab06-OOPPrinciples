@@ -75,28 +75,28 @@ all these principles what make our code have `Reusability` `Security` `flexibili
 
 ## Interface
 
-interface is kind of Abstract in what it doing but in a new format that focuses on `force` to create right methods that other thing that Abstract class thing can do.
+the interface is kind of Abstract in what it doing but in a new format that focuses on `force` to create the right methods that other thing that Abstract class thing can do.
 
 
 in my project i create three Interface 
 
 
 1. ISeaAnimal
-to have Special method for sea animal .
+to have a Special method for sea animals.
 
 
-**Example** : test if this see animal live in any type of water **River Water** , **ocean water** ... so we need to crate a way to check evry type of water `WaterType()`.
+**Example** : test if this sea animal lives in any type of water **River Water** , **ocean water** ... so we need to create a way to check every type of water `WaterType()`.
 
 2. IRareAnimal
 
- to create some spatiole functions for Endangered animal.
+ to create some spatial functions for Endangered animals.
 
-**Example** : Shaek kiz is one of five left on earth so i need to creat some method to check the namber of animle i have form this kind `getCount()`
+**Example** : Shark kiz is one of five left on earth so i need to create some method to check the number of animals i have from this kind `getCount()`
 
 
 3. IIsOpen
 
-for all market we add on there evry function for workday on markets
+for all market we add on their every function for the workday on markets
 
 **Example** : ali con close his maket before zoo close in 2 hour `Close()`.
 
