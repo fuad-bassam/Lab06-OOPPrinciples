@@ -27,7 +27,7 @@ is the meaning of class itself to breakdown your code to smaller pieces and redu
 all the classes that we create 
 
 ![img](./image/UML_oop_Abs1.PNG)
-![img](./image/UML_oop_Abs2.PNG)
+![img](./image/UML_oop_Abs2.PNG)  
 
 2. **Encapsulation**
 and also when we talk about the class we talk about encapsulation to get limitation for access and hide the data that what give our code more `Security` and provides necessary data to view.
@@ -72,24 +72,65 @@ the owerrides in all around the diagram
 all these principles what make our code have `Reusability` `Security` `flexibility` `smooth` `easy to read and write`.
 
 
+
+## Interface
+
+interface is kind of Abstract in what it doing but in a new format that focuses on `force` to create right methods that other thing that Abstract class thing can do.
+
+
+in my project i create three Interface 
+
+
+1. ISeaAnimal
+to have Special method for sea animal .
+
+
+**Example** : test if this see animal live in any type of water **River Water** , **ocean water** ... so we need to crate a way to check evry type of water `WaterType()`.
+
+2. IRareAnimal
+
+ to create some spatiole functions for Endangered animal.
+
+**Example** : Shaek kiz is one of five left on earth so i need to creat some method to check the namber of animle i have form this kind `getCount()`
+
+
+3. IIsOpen
+
+for all market we add on there evry function for workday on markets
+
+**Example** : ali con close his maket before zoo close in 2 hour `Close()`.
+
 ----
 ## :movie_camera: UML Diagram
 
 
-- **All the Diagram**
+- **All the Diagram**  
 
   ![img](./image/ZOO_UMl.PNG)  
 
-- **People Part**
+- **People Part**  
   ![img](./image/uml_people.PNG)  
 
-- **Animal Part**
+- **Animal Part**  
   ![img](./image/ZOO_Animal.PNG)  
 
 
--**Places Part**
+-**Places Part**  
 
   ![img](./image/Zoo_Places.PNG)  
+
+
+
+
+## Solution
+
+some run time 
+
+  ![img](./image/Zoo_run.PNG)    
+
+tests image
+
+  ![img](./image/Test_Zoo.PNG)   
 
 
 

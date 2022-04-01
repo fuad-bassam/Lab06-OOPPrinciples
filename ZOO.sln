@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZOO", "ZOO\ZOO.csproj", "{F024DC7E-AC8E-4A85-A928-E20B2C857821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZOO", "ZOO\ZOO.csproj", "{F024DC7E-AC8E-4A85-A928-E20B2C857821}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE1EFDFE-9DF6-477D-AD18-5BB6CC48AEC2}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,19 +12,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{9F284AB5-6356-4A4C-8591-26FA8410B8FF}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\UML_oop_Abs1.PNG = ..\..\..\Desktop\UML_oop_Abs1.PNG
-		..\..\..\Desktop\UML_oop_Abs2.PNG = ..\..\..\Desktop\UML_oop_Abs2.PNG
-		..\..\..\Desktop\UML_oop_enca1.PNG = ..\..\..\Desktop\UML_oop_enca1.PNG
-		..\..\..\Desktop\UML_oop_enca2.PNG = ..\..\..\Desktop\UML_oop_enca2.PNG
-		..\..\..\Desktop\UML_oop_inher1.PNG = ..\..\..\Desktop\UML_oop_inher1.PNG
-		..\..\..\Desktop\UML_oop_inher2.PNG = ..\..\..\Desktop\UML_oop_inher2.PNG
-		..\..\..\Desktop\UML_oop_poly1.PNG = ..\..\..\Desktop\UML_oop_poly1.PNG
-		..\..\..\Desktop\UML_oop_poly2.PNG = ..\..\..\Desktop\UML_oop_poly2.PNG
-		..\..\..\Desktop\uml_people.PNG = ..\..\..\Desktop\uml_people.PNG
-		..\..\..\Desktop\ZOO_Animal.PNG = ..\..\..\Desktop\ZOO_Animal.PNG
-		..\..\..\Desktop\Zoo_Places.PNG = ..\..\..\Desktop\Zoo_Places.PNG
-		..\..\..\Desktop\ZOO_UMl.PNG = ..\..\..\Desktop\ZOO_UMl.PNG
+		image\Test_zoo.PNG = image\Test_zoo.PNG
+		image\UML_oop_Abs1.PNG = image\UML_oop_Abs1.PNG
+		image\UML_oop_Abs2.PNG = image\UML_oop_Abs2.PNG
+		image\UML_oop_enca1.PNG = image\UML_oop_enca1.PNG
+		image\UML_oop_enca2.PNG = image\UML_oop_enca2.PNG
+		image\UML_oop_inher1.PNG = image\UML_oop_inher1.PNG
+		image\UML_oop_inher2.PNG = image\UML_oop_inher2.PNG
+		image\UML_oop_poly1.PNG = image\UML_oop_poly1.PNG
+		image\UML_oop_poly2.PNG = image\UML_oop_poly2.PNG
+		image\uml_people.PNG = image\uml_people.PNG
+		image\ZOO_Animal.PNG = image\ZOO_Animal.PNG
+		image\Zoo_Places.PNG = image\Zoo_Places.PNG
+		image\Zoo_run.PNG = image\Zoo_run.PNG
+		image\ZOO_UMl.PNG = image\ZOO_UMl.PNG
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestZoo", "TestZoo\TestZoo.csproj", "{0D1D63E0-47BE-4A97-AAC0-EC13547BCB72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,10 @@ Global
 		{F024DC7E-AC8E-4A85-A928-E20B2C857821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F024DC7E-AC8E-4A85-A928-E20B2C857821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F024DC7E-AC8E-4A85-A928-E20B2C857821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1D63E0-47BE-4A97-AAC0-EC13547BCB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1D63E0-47BE-4A97-AAC0-EC13547BCB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1D63E0-47BE-4A97-AAC0-EC13547BCB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1D63E0-47BE-4A97-AAC0-EC13547BCB72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
